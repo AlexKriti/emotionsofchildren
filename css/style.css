@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    padding-top: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 133px;
+
+    
+    
+}
+.lupa{
+    padding-top: 39px;
+    padding-right: 134px;
+    
+    
+}
+.background{
+    display: flex;
+    background-color: #357585;
+    margin: 85px 0 0 133px;
+    width: 633px;
+    padding-left: 133px;
+    padding-top: 85px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.kot{
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: white;
+}
+
+.foot {
+    padding-top: 41px;
+    padding-left: 133px;
+    padding-bottom: 12px;
+}
+
+.eighteen {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.para6 {
+    max-width: 185px;
+}
+
+.para6 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 92%;
+    color: #000000;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logos div {
+    margin-right: 16px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    padding-left: 153px;
+    font-family:'PT Sans' ;
+}
+.hello{
+    font-size: 45px;
+    font-family: 'Jost';
+}
