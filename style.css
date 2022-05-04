@@ -1,0 +1,204 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+.container {
+    margin: auto;
+    max-width: 1600px;
+}
+
+div.noname {
+    display: inline-block;
+}
+
+div.one,
+div.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.first,
+div.second,
+div.third,
+div.forth {
+    max-width: 644px;
+    margin-bottom: 100px;
+}
+
+div.one div h3 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 108.5%;
+}
+
+div.one div p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+div.one div.first {
+    padding: 25px 38px 63px 44px;
+    border-radius: 27px;
+    background-image: url(images/Group\ 2.svg);
+    background-repeat: no-repeat;
+}
+
+div.one div.second {
+    display: flex;
+    padding: 53px 62px 53px 59px;
+    background-color: #fff;
+    border-radius: 27px;
+}
+
+div.one div.second h3 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 108.5%;
+}
+
+div.one div.second p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 108.5%;
+}
+
+div.one div.third {
+    background-color: #fff;
+    border-radius: 27px;
+    padding: 79px 108px 56px 76px;
+}
+
+div.one div.third h3 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+}
+
+div.one div.third p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+div.one div.forth {
+    background-color: #fff;
+    border-radius: 27px;
+}
+
+div.one div.forth p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+}
+
+div.one div.forth img {
+    margin: 80px 155px 43px 119px
+}
+
+div.one div.forth p {
+    margin: 0 27px 68px 44px;
+}
+
+div.two div.first {
+    background-image: url(images/Group\ 2.svg);
+    padding: 25px 57px 21px 44px;
+    border-radius: 27px;
+}
+
+div.two div.first p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+}
+
+div.two div.second {
+    background-color: #fff;
+    border-radius: 27px;
+}
+
+div.two div.second img {
+    margin: 47px 42px 23px 36px;
+}
+
+div.two div.second p {
+    margin: 0 45px 56px 44px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 108.5%;
+}
+
+div.two div.third {
+    background-image: url(images/Group\ 2.svg);
+    padding: 24px 43px 25px 44px;
+    border-radius: 27px;
+}
+
+div.two div.third p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 49px;
+}
+
+div.two div.forth {
+    background-color: #fff;
+    border-radius: 27px;
+}
+
+div.two div.forth img {
+    padding: 54px 7px 56px 46px;
+}
+
+div.two div.forth p {
+    padding: 0 52px 7px 44px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 108.5%;
+}
+
+div.two div.fifth {
+    background-color: #fff;
+    border-radius: 27px;
+}
+
+div.two div.fifth p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 49px;
+    padding: 61px 79px 0 44px;
+}
+
+div.two div.fifth img {
+    padding: 0 210px 10px 268px;
+}
