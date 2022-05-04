@@ -37,9 +37,28 @@ body {
 }
 
 .search {
-    background: url(search.png);
-    width: 21.82px;
-    height: 21.82px;
+    background: url(search.png) white;
+}
+
+.search input {
+    border: none;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.search button {
+    background: url(../images/поиск.svg) white;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    vertical-align: middle;
 }
 
 .logo {
