@@ -27,7 +27,7 @@ img {
     margin-bottom: 129px;
 }
 
-.head {
+header .head {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -39,27 +39,27 @@ img {
     background-color: transparent;
 }
 
-.head a {
+header .head a {
     text-decoration: none;
     color: #000000;
 }
 
-.search {
+header .search {
     background: url(search.png) white;
 }
 
-.search input {
+header .search input {
     border: none;
     padding: 20px;
     vertical-align: middle;
 }
 
-input:focus {
+header input:focus {
     border: none;
     outline: none;
 }
 
-.search button {
+header .search button {
     background: url(../images/поиск.svg) white;
     width: 40px;
     height: 40px;
@@ -69,7 +69,7 @@ input:focus {
     vertical-align: middle;
 }
 
-.logo {
+header .logo {
     font-family: 'Neucha';
     font-style: normal;
     font-weight: 400;
