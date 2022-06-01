@@ -93,7 +93,7 @@ header .logo {
 }
 
 .head-wrapper {
-    /* width: 432px; */
+    width: 432px;
     height: 156px;
 }
 
@@ -101,7 +101,7 @@ header .logo {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 108.5%;
     color: #000000;
 }
@@ -146,20 +146,6 @@ header .logo {
     margin-bottom: 30px;
 }
 
-.acceptance {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 108.5%;
-    color: #000000;
-    padding-bottom: 72px;
-}
-
-.acceptance p {
-    font-weight: 400;
-}
-
 .depression {
     font-family: 'PT Sans';
     font-style: normal;
@@ -177,20 +163,6 @@ header .logo {
     font-size: 36px;
     line-height: 108.5%;
     color: #000000;
-}
-
-.games {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 108.5%;
-    color: #000000;
-    padding-bottom: 72px;
-}
-
-.games h3 {
-    padding-bottom: 50px;
 }
 
 .para4 {
@@ -218,29 +190,6 @@ footer {
     font-weight: 400;
     font-size: 32px;
     line-height: 46px;
-    color: #000000;
-}
-
-.trust {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 108.5%;
-    color: #000000;
-    padding-bottom: 72px;
-}
-
-.trust h3 {
-    padding-bottom: 50px;
-}
-
-.trust p {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 108.5%;
     color: #000000;
 }
 
@@ -378,24 +327,6 @@ footer {
     .depression-para {
         font-size: 28px;
     }
-    .acceptance {
-        font-size: 25px;
-    }
-    .acceptance p {
-        font-size: 28px;
-    }
-    .games {
-        font-size: 25px;
-    }
-    .games p {
-        font-size: 28px;
-    }
-    .trust {
-        font-size: 28px;
-    }
-    .trust p {
-        font-size: 25px;
-    }
 }
 
 @media(max-width:400px) {
@@ -448,23 +379,5 @@ footer {
         font-size: 22px;
         padding-left: 20px;
         padding-right: 20px;
-    }
-    .acceptance {
-        font-size: 25px;
-    }
-    .acceptance p {
-        font-size: 22px;
-    }
-    .games {
-        font-size: 25px;
-    }
-    .games p {
-        font-size: 22px;
-    }
-    .trust {
-        font-size: 25px;
-    }
-    .trust p {
-        font-size: 22px;
     }
 }
